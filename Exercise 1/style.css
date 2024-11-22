@@ -1,0 +1,56 @@
+:root {
+    --black: black;
+    --red: red;
+    --green: green;
+    --yellow: yellow;
+    --blue: blue;
+    --white: white;
+}
+
+.btn {
+    padding: 2rem 4rem;
+    border: 2px solid var(--black);
+    background: transparent;
+    font-size: 1.6em;
+    border-radius: 2px;
+    
+}
+
+.black {
+    border: 2px solid var(--black);
+}
+.black:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.red {
+    border: 2px solid var(--red);
+}
+.red:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.green {
+    border: 2px solid var(--green);
+}
+.green:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.yellow {
+    border: 2px solid var(--yellow);
+}
+.yellow:hover {
+    background-color: var(--yellow);
+}
+
+.blue {
+    border: 2px solid var(--blue);
+}
+.blue:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
