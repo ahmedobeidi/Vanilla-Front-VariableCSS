@@ -1,7 +1,5 @@
 const root = document.documentElement;
 const colorChanger = document.getElementById("chooser");
-const header = document.getElementById("header");
-const footer = document.getElementById("footer");
 
 colorChanger.addEventListener("input", handleColorChangerButton);
 
